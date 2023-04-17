@@ -1,0 +1,15 @@
+@import './reset.scss';
+
+
+* {
+    box-sizing: border-box
+}
+
+
+:root {
+    --black: #000000;
+    --white: #FDF2FF;
+}
+
+
+@import './splash/splash.scss';
