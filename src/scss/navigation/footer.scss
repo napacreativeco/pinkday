@@ -1,0 +1,19 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding: 15px 25px;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    a {
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+    }
+
+}

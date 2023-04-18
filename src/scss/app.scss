@@ -1,0 +1,60 @@
+@import './reset.scss';
+
+
+* {
+    box-sizing: border-box
+}
+
+
+:root {
+    --black: #000000;
+    --white: #FDF2FF;
+    --pink: #FF44D0;
+    --robot-font: 'Selector Light';
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'SM - L';
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li.active a {
+    text-decoration: underline;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    outline: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid var(--black);
+    background: transparent;
+    max-width: 1rem;
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@import './splash/splash.scss';
+@import './fonts.scss';
+@import './navigation/navbar.scss';
+@import './newsletter/newsletter.scss';
+@import './navigation/footer.scss';
+@import './products/products.scss';
+@import './products/radio-inputs.scss';
+@import './products/single-product.scss';
+@import './video/plyr.scss';
+@import './cart/cart-drawer.scss';
+@import './cart/cart-page.scss';
+@import './swiper/swiper.scss';

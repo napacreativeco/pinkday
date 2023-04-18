@@ -1,0 +1,64 @@
+.enter {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    background: var(--black);
+    width: 100vw;
+    height: 100vh;
+
+    .enter--wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        position: relative;
+    }
+
+    .logo {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+        img {
+            width: 100%;
+            max-width: 50vw;
+        }
+
+    }
+
+    .enter-button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 80px;
+        text-transform: uppercase;
+        display: block;
+        z-index: 6;
+        cursor: pointer;
+
+        span {
+            color: var(--pink);
+            font-family: var(--robot-font);
+            font-size: 36px;
+        }
+    }
+
+    #player {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 90vw;
+        height: 90vh;
+        z-index: 4;
+        margin: 0 auto;
+    }
+
+}

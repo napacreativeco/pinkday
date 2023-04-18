@@ -1,0 +1,35 @@
+.navbar {
+
+    .navbar--wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 26px;
+    }
+
+    .logo {
+
+        img {
+            width: 100%;
+            max-width: 268px;
+        }
+
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    a {
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+    }
+
+    .cart-link {
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+}

@@ -1,0 +1,26 @@
+.cart-page {
+
+    // Cart Totals
+    .cart-totals {
+        margin-top: 60px;
+        background: var(--pink);
+        padding: 60px;
+
+        .sub-total {
+            padding: 0 0 40px 0;
+
+            h3 {
+                text-transform: uppercase;
+            }   
+
+        }
+
+        .back-to-shop {
+            padding: 20px 20px 0 20px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+    }
+
+}

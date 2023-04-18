@@ -1,0 +1,32 @@
+.cart-page {
+
+    .cart-actions--wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4px;
+        width: 100%;
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+        background: var(--black);
+        color: var(--white);
+        outline: 0;
+        border: 0;
+        font-family: var(--robot-font);
+        text-transform: uppercase;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .update {
+
+    }
+
+    .checkout {
+        input[type="submit"] {
+            color: var(--pink);
+        }
+    }
+
+}

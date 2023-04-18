@@ -1,7 +1,65 @@
 {% comment %}
-  Very important reading:
-  http://docs.shopify.com/themes/liquid-basics/what-is-true-and-false-in-liquid
-  Learn how to read theme settings in your theme.
+Homepage
 {% endcomment %}
 
-{{ page.content }}
+<div class="enter">
+  <div class="enter--wrapper">
+
+    <div class="logo">
+      <img src="{{ 'pinkday--logo--filled.png' | asset_url }}" alt="{{ 'Pink Day' | escape }}" />
+    </div>
+
+    <video id="player" loop muted playsinline autoplay>
+      <source src="{{ 'pinkday-compress.mp4' | asset_url }}" type="video/mp4">
+    </video>
+
+    <div class="enter-button">
+      <span>{{ 'Enter' | escape }}</span>
+    </div>
+
+  </div>
+</div>
+
+<div class="page-container" data-page="home">
+
+  <div class="product-archive">
+  
+    {% paginate collections.all.products by 1000 %}
+
+      <div class="product-archive--wrapper">
+        
+        <ul class="products">
+
+          {% for product in collections.all.products %}
+
+            <li class="item">
+              <div class="image">
+                <a href="{{ product.url }}" title="{{ product.title }}">
+                  <img src="{{ product.featured_image | img_url: '900x' }}" alt="{{ product.title }}" />
+                </a>
+              </div>
+              <div class="title">
+                <a href="{{ product.url }}" title="{{ product.title }}">
+                  <h2 class="product-title">
+                    {{ product.title }}
+                  </h2>
+                </a>
+              </div>
+              <div class="price">
+                <a href="{{ product.url }}" title="{{ product.title }}">
+                  {{ product.price | money_without_trailing_zeros }}
+                </a>
+              </div>
+            </li>
+
+          {% endfor %}
+
+        </ul>
+
+      </div>
+
+    {% endpaginate %}
+    
+  </div>
+
+</div>

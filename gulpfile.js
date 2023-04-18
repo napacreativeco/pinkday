@@ -6,13 +6,14 @@ const { series } = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const sass = require('gulp-sass')(require('sass'));
 const cleanCSS = require('gulp-clean-css');
+const concat = require('gulp-concat');
  
 
 /* =========================
    Build Styles
    ========================= */
 function buildStyles() {
-  return gulp.src('./src/app.scss')
+  return gulp.src('./src/scss/app.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       overrideBrowserslist: ["last 2 versions"]
@@ -30,7 +31,7 @@ exports.buildStyles = buildStyles;
    Build Scripts
    ========================= */
 function buildScripts() {
-    return gulp.src(['./js/home.js', './js/index.js', './js/taxonomy.js'])
+    return gulp.src(['./src/js/pinkday.js',])
       .pipe(concat('compiled.js'))
       .pipe(gulp.dest('./assets/'));
 };
@@ -38,8 +39,8 @@ function buildScripts() {
 exports.buildScripts = buildScripts;
 
 function watch() {
-    gulp.watch('./css/**/*.scss', buildStyles);
-    gulp.watch('./js/**/*.js', buildScripts);
+    gulp.watch('./src/scss/**/*.scss', buildStyles);
+    gulp.watch('./src/js/**/*.js', buildScripts);
 }
 exports.watch = watch;
 

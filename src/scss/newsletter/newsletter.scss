@@ -1,0 +1,30 @@
+.newsletter-widget {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+
+    #contact_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    input[type="email"] {
+        background: var(--black);
+        border: 1px solid var(--white);
+        outline: 0px;
+        padding: 12px;
+        text-transform: uppercase;
+    }
+
+    input[type="submit"] {
+        outline: 0px;
+        padding: 12px;
+        border: 1px solid var(--white);
+        background: var(--white);
+        text-transform: uppercase;
+    }
+
+}
