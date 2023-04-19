@@ -33,6 +33,8 @@
 
   {{ content_for_header }}
 
+  {% include 'fonts' %}
+  
   {{ 'style.scss.css' | asset_url | stylesheet_tag }}
 
   {{ 'app.css' | asset_url | stylesheet_tag }}
