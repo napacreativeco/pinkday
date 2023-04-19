@@ -51,10 +51,12 @@ input::-webkit-inner-spin-button {
 @import './navigation/navbar.scss';
 @import './newsletter/newsletter.scss';
 @import './navigation/footer.scss';
+@import './navigation/mobile.scss';
+@import './pages/shipping.scss';
 @import './products/products.scss';
 @import './products/radio-inputs.scss';
 @import './products/single-product.scss';
 @import './video/plyr.scss';
 @import './cart/cart-drawer.scss';
 @import './cart/cart-page.scss';
-@import './swiper/swiper.scss';
+@import './swiper/mods.scss';

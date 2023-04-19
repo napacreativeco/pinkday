@@ -10,7 +10,7 @@
     max-width: 30vw;
     background: var(--pink);
     color: var(--black);
-    z-index: 9;
+    z-index: 999;
     transition: 0.3s ease-in-out;
 
     .cart-drawer--wrapper {
@@ -130,4 +130,17 @@ form.js-ajax-cart-form-in-progress [type="submit"] {
 form.js-ajax-cart-form-in-progress:after { 
     content: 'Adding to cart…';
     display: block; 
+}
+
+@media screen and (max-width: 767px) {
+
+    .cart-drawer {
+        max-width: 80vw;
+        transform: translateX(80vw);
+    }
+
+    .js-my-cart-open .cart-drawer {
+        transform: translateX(0px);
+    }
+    
 }

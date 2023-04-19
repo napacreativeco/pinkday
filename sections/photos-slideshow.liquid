@@ -1,0 +1,47 @@
+{% for block in section.blocks %}
+  
+    {{ block.settings.slideimage | img_url }}
+  
+{% endfor %}
+  
+{% schema %}
+      {
+        "name": "Photos Slideshow",
+        "tag": "section",
+        "class": "photos-slideshow",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "page-title",
+            "label": "Page Title"
+          }
+        ],
+        "max_blocks": 50,
+        "blocks": [
+           {
+             "name": "Slide",
+             "type": "slide",
+             "settings": [
+               {
+                 "type": "image_picker",
+                 "id": "slideimage",
+                 "label": "Slide Image"
+               },
+               {
+                 "type": "textarea",
+                 "id": "slidealt",
+                 "label": "SEO Description"
+               }
+             ]
+           }
+        ],
+          "presets": [{
+              "name": "Photos Slideshow",
+              "category": "photos",
+              "blocks": [{
+                  "type": "slide"
+              }]
+          }]
+      }
+  {% endschema %}

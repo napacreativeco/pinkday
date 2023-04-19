@@ -29,4 +29,33 @@ div[data-page="collection"] {
 
     }
 
+    .product-variant {
+        font-family: 'SM - L';
+        text-align: center;
+    }
+
+}
+
+
+/* 
+   ====================================================
+   MOBILE
+   ====================================================
+*/
+@media screen and (max-width: 769px) {
+
+    div[data-page="home"],
+    div[data-page="collection"] {
+    
+        padding: 0px 10px 80px 10px;
+
+        ul.products {
+            display: grid;
+            grid-template-columns: 1fr;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+    }
 }

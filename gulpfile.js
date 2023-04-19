@@ -31,7 +31,7 @@ exports.buildStyles = buildStyles;
    Build Scripts
    ========================= */
 function buildScripts() {
-    return gulp.src(['./src/js/pinkday.js',])
+    return gulp.src(['./src/js/**/*.js',])
       .pipe(concat('compiled.js'))
       .pipe(gulp.dest('./assets/'));
 };

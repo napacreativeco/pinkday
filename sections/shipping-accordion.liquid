@@ -1,0 +1,52 @@
+{% for block in section.blocks %}
+  
+  <details>
+    <summary>
+        <h2 class="accordion-title">{{ block.settings.faqtitle }}</h2>
+    </summary>
+    <p class="accordion-body">{{ block.settings.faqbody }}</p>
+</details>
+
+{% endfor %}
+
+{% schema %}
+    {
+      "name": "Shipping FAQ",
+      "tag": "section",
+      "class": "shipping-faq",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "page-title",
+          "label": "Page Title"
+        }
+      ],
+      "max_blocks": 20,
+      "blocks": [
+         {
+           "name": "FAQ",
+           "type": "faq",
+           "settings": [
+             {
+               "type": "text",
+               "id": "faqtitle",
+               "label": "Question"
+             },
+             {
+               "type": "textarea",
+               "id": "faqbody",
+               "label": "Answer"
+             }
+           ]
+         }
+      ],
+        "presets": [{
+            "name": "Shipping FAQ",
+            "category": "shipping",
+            "blocks": [{
+                "type": "faq"
+            }]
+        }]
+    }
+{% endschema %}

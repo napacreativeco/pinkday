@@ -1,0 +1,33 @@
+.shipping-page {
+
+    padding: 40px 60px;
+
+    details > summary {
+        list-style: none;
+    }
+
+    details {
+
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            display: inline;
+        }
+
+        p {
+            margin: 20px 10px;
+            font-weight: 100;
+            font-size: 1.2rem;
+        }
+    }
+
+    details[open] {
+        h2 {
+            border-bottom: 2px solid var(--white);
+        }
+    }
+
+}
+

@@ -63,3 +63,29 @@ Homepage
   </div>
 
 </div>
+
+
+
+<script>
+  (function($) {
+
+    $(document).ready(function(){
+
+      $('.product-title').each(function(i, v) {
+
+        var title = $(v).text();
+        var d = title.split('/')[0];
+        var y = title.substr(title.indexOf("/") + 1);
+
+        $(this).text(d);
+
+        if (title.indexOf("/") >= 0) {
+          $(this).append('<div class="product-variant">' + y + '</div>');
+        }        
+
+      });
+
+    });
+    
+  })(jQuery);
+</script>

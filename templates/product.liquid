@@ -32,12 +32,19 @@
               </div>
 
             {% endfor %}
+                      
+
+
           </div>
 
           <div class="swiper-controls">
-            <div class="swiper-button-prev"></div>
+            <div class="button-prev">
+              <img src="{{ 'caret.svg' | asset_url }}" alt="Previous" />
+            </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
+            <div class="button-next">
+              <img src="{{ 'caret.svg' | asset_url }}" alt="Next" />
+            </div>
           </div>
 
         </div>
@@ -173,12 +180,13 @@
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
+      clickable: true
     },
 
     // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
     },
   });
 

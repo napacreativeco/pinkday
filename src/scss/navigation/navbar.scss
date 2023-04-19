@@ -33,3 +33,35 @@
     }
 
 }
+
+.mobile-navbar {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        ul {
+            gap: 60px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        ul {
+            gap: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .navbar {
+        ul {
+            gap: 30px;
+        }
+        .logo img {
+            max-width: 210px;
+        }
+    }
+}

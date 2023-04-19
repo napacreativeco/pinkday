@@ -20,7 +20,7 @@ Collections
                   <img src="{{ product.featured_image | img_url: '900x' }}" alt="{{ product.title }}" />
                 </a>
               </div>
-              <div class="title">
+              <div class="title" data-title="{{ product.title }}">
                 <a href="{{ product.url }}" title="{{ product.title }}">
                   <h2 class="product-title">
                     {{ product.title }}
@@ -45,3 +45,28 @@ Collections
   </div>
 
 </div>
+
+
+<script>
+  (function($) {
+
+    $(document).ready(function(){
+
+      $('.product-title').each(function(i, v) {
+
+        var title = $(v).text();
+        var d = title.split('/')[0];
+        var y = title.substr(title.indexOf("/") + 1);
+
+        $(this).text(d);
+
+        if (title.indexOf("/") >= 0) {
+          $(this).append('<div class="product-variant">' + y + '</div>');
+        }        
+
+      });
+
+    });
+    
+  })(jQuery);
+</script>

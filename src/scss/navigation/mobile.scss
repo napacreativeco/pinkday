@@ -1,0 +1,95 @@
+
+@media screen and (max-width: 769px) {
+    
+    .navbar {
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: block;
+        border-bottom: 1px solid var(--white);
+
+        .mobile-navbar--wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            background: var(--black);
+            position: relative;
+            z-index: 99;  
+            border-bottom: 1px solid var(--white);
+        }
+
+        .logo {
+            padding: 4px 0;
+            img {
+                width: 100%;
+                max-width: 120px;
+            }
+
+        }
+
+        .sandwich-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .sandwich {
+            width: 30px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .bread {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+                gap: 4px;
+            }
+
+            .stuff {
+                width: 30px;
+                height: 2px;
+                background: var(--white);
+            }
+        }
+
+        .cart-link--wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+
+            .cart-link {
+                text-transform: uppercase;
+            }
+        }
+
+        // Slide Down Menu
+        .navbar-mobile--menu {
+            width: 100%;
+            height: 0px;
+            overflow: hidden;
+            background: var(--black);
+            color: var(--white);
+            // transform: translateY(-200%);
+            z-index: 1;
+
+            .links li {
+                border-bottom: 1px solid var(--white);
+                padding: 10px;
+            }
+
+            .links a {
+                text-transform: uppercase;
+            }
+
+        }
+
+    }
+
+
+    
+}
