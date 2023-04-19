@@ -1,8 +1,29 @@
-{% for block in section.blocks %}
-  
-    {{ block.settings.slideimage | img_url }}
-  
-{% endfor %}
+<div class="swiper">
+    <div class="swiper-wrapper">
+            
+        {% for block in section.blocks %}
+
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="{{ block.settings.slideimage | img_url: '1080x' }}" alt="{{ block.settings.slidealt | escape }}" />
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+    <div class="swiper-controls">
+        <div class="button-prev">
+            <img src="{{ 'caret.svg' | asset_url }}" alt="Previous" />
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="button-next">
+            <img src="{{ 'caret.svg' | asset_url }}" alt="Next" />
+        </div>
+    </div>
+
+</div>
+
   
 {% schema %}
       {
@@ -45,3 +66,28 @@
           }]
       }
   {% endschema %}
+
+
+
+
+<script>
+
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    },
+  });
+
+</script>
