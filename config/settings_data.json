@@ -1,7 +1,35 @@
 {
   "current": {
     "customer_layout": "theme",
-    "example_option": "option"
+    "example_option": "option",
+    "sections": {
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+        }
+      },
+      "shipping-accordion": {
+        "type": "shipping-accordion",
+        "blocks": {
+          "28a41e31-067f-4dac-ac80-3e91d23e9a07": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "HOW SOON WILL MY ORDER SHIP?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          }
+        },
+        "block_order": [
+          "28a41e31-067f-4dac-ac80-3e91d23e9a07"
+        ],
+        "settings": {
+          "page-title": ""
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Naked": {
