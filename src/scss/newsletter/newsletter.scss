@@ -6,25 +6,51 @@
     z-index: 2;
 
     #contact_form {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        width: 30vw;
     }
 
     input[type="email"] {
         background: var(--black);
-        border: 1px solid var(--white);
-        outline: 0px;
+        border-top: 1px solid var(--white);
+        border-right: 1px solid var(--white);
+        border-bottom: 0px;
+        border-left: 0px;
+        border-radius: 0px !important;
+        outline: 0px !important;
         padding: 12px;
         text-transform: uppercase;
+        color: var(--white);
+        width: 100%;
     }
 
     input[type="submit"] {
         outline: 0px;
         padding: 12px;
         border: 1px solid var(--white);
+        border-radius: 0px !important;
         background: var(--white);
         text-transform: uppercase;
+        width: 100%;
     }
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .newsletter-widget {
+        right: 0;
+
+        #contact_form {
+            width: 100vw;
+        }
+
+    }
+
+
 
 }
