@@ -17,10 +17,106 @@
               "faqtitle": "HOW SOON WILL MY ORDER SHIP?",
               "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
             }
+          },
+          "cc09f1f4-be99-4de6-b48e-ecf98962da4c": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "HOW DO YOU CALCULATE SHIPPING CHARGES?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "29a612e0-06c0-4e4e-92ff-908f69d26adb": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "HOW DO I TRACK MY ORDER AFTER IT SHIPS?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "96edaa5f-ef0f-40e2-b0c5-81b079f6a3f1": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "HOW DO YOU FULFILL PRE-ORDERS?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "6888f123-67c8-4ba4-809d-eeafdb523725": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "WHAT FORM OF PAYMENT DO YOU ACCEPT?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "4fdc410b-d821-4e1a-8faf-cf3d5f15b287": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "IS IT SAFE TO USE MY CREDIT CARD?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "cc32f553-7c71-4413-9d54-79469e1240ae": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "DO YOU CHARGE SALES TAX?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "422492d7-0c7a-43d6-bba4-4b7b22b6c443": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "HOW TO CHANGE AN ADDRESS OR CANCEL YOUR ORDER?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "d40cacbe-8dd4-457b-833a-2989485a4d29": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "PROMOTIONAL CODES\/DISCOUNTS",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "6c13ab1f-f88a-44ed-a47a-8c3665c3b669": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "WHERE CAN I REVIEW A SIZE CHART?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "846071b8-8aed-4634-a0ae-9a2ff09f862c": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "WHAT IS YOUR RETURNS POLICY?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "307e5292-941a-4d43-a53f-4ea99941adcc": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "DIGITAL DOWNLOAD SUPPORT",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
+          },
+          "90e2e353-f3a3-4d6a-a2a5-d869ac659167": {
+            "type": "faq",
+            "settings": {
+              "faqtitle": "HOW DO I CONTACT CUSTOMER SERVICE?",
+              "faqbody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            }
           }
         },
         "block_order": [
-          "28a41e31-067f-4dac-ac80-3e91d23e9a07"
+          "28a41e31-067f-4dac-ac80-3e91d23e9a07",
+          "cc09f1f4-be99-4de6-b48e-ecf98962da4c",
+          "29a612e0-06c0-4e4e-92ff-908f69d26adb",
+          "96edaa5f-ef0f-40e2-b0c5-81b079f6a3f1",
+          "6888f123-67c8-4ba4-809d-eeafdb523725",
+          "4fdc410b-d821-4e1a-8faf-cf3d5f15b287",
+          "cc32f553-7c71-4413-9d54-79469e1240ae",
+          "422492d7-0c7a-43d6-bba4-4b7b22b6c443",
+          "d40cacbe-8dd4-457b-833a-2989485a4d29",
+          "6c13ab1f-f88a-44ed-a47a-8c3665c3b669",
+          "846071b8-8aed-4634-a0ae-9a2ff09f862c",
+          "307e5292-941a-4d43-a53f-4ea99941adcc",
+          "90e2e353-f3a3-4d6a-a2a5-d869ac659167"
         ],
         "settings": {
           "page-title": ""
