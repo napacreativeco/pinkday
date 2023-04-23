@@ -121,6 +121,32 @@
         "settings": {
           "page-title": ""
         }
+      },
+      "photos-slideshow": {
+        "type": "photos-slideshow",
+        "blocks": {
+          "393de133-17cb-4d4d-9c01-dc6d4fc1b926": {
+            "type": "slide",
+            "settings": {
+              "slideimage": "shopify:\/\/shop_images\/uzi-vert--live_6c2f499d-4425-4eac-9bf9-de6fd3b66215.jpg",
+              "slidealt": ""
+            }
+          },
+          "b48baf63-1e95-46cb-92b4-b17951ffe91e": {
+            "type": "slide",
+            "settings": {
+              "slideimage": "shopify:\/\/shop_images\/uzi-vert--vetements.jpg",
+              "slidealt": ""
+            }
+          }
+        },
+        "block_order": [
+          "393de133-17cb-4d4d-9c01-dc6d4fc1b926",
+          "b48baf63-1e95-46cb-92b4-b17951ffe91e"
+        ],
+        "settings": {
+          "page-title": ""
+        }
       }
     },
     "content_for_index": [
