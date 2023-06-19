@@ -3,11 +3,40 @@ Homepage
 {% endcomment %}
 
 <style>
-.signup-for-launch {
-    float: left;
-    position: fixed;
-    bottom: 0;
-}
+    .signup-for-launch {
+        float: left;
+        position: fixed;
+        bottom: 0;
+    }
+    .launch-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        width: 30vw;
+    }
+
+    input[type="email"] {
+        background: var(--black);
+        border-top: 1px solid var(--white);
+        border-right: 1px solid var(--white);
+        border-bottom: 0px;
+        border-left: 0px;
+        border-radius: 0px !important;
+        outline: 0px !important;
+        padding: 12px;
+        text-transform: uppercase;
+        color: var(--white);
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        outline: 0px;
+        padding: 12px;
+        border: 1px solid var(--white);
+        border-radius: 0px !important;
+        background: var(--white);
+        text-transform: uppercase;
+        width: 100%;
+    }
 </style>
 
 <div class="enter">
@@ -29,16 +58,18 @@ Homepage
     {% endcomment %}
 
     <div class="signup-for-launch">
-      {% form 'customer' %}
-          <div class="email">
-            <label for="email" style="display: none;">Email</label>
-            <input type="email" placeholder="EMAIL ADDRESS" name="contact[email]" />
-          </div>
-        
-          <div class="submit">
-            <input type="submit" value="Sign up" />
-          </div>
-      {% endform %}
+      <div class="launch-wrapper">
+        {% form 'customer' %}
+            <div class="email">
+              <label for="email" style="display: none;">Email</label>
+              <input type="email" placeholder="EMAIL ADDRESS" name="contact[email]" />
+            </div>
+          
+            <div class="submit">
+              <input type="submit" value="Sign up" />
+            </div>
+        {% endform %}
+      </div>
     </div>
 
   </div>
