@@ -12,9 +12,14 @@ Homepage
     }
     .launch-wrapper {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 40px 2fr 1fr;
         width: 30vw;
         border-bottom: 1px solid var(--white);
+
+      .ig-icon img {
+        width: 20px;
+        height: 20px;
+      }
     }
 
     input[type="email"] {
@@ -63,6 +68,10 @@ Homepage
     <div class="signup-for-launch">
       {% form 'customer' %}
         <div class="launch-wrapper">
+
+            <div class="ig-icon">
+              <img src="{{ 'ig-icon.svg' | asset_url }}" alt="Instagram" />
+            </div>
           
             <div class="email">
               <label for="email" style="display: none;">Email</label>
