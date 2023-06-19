@@ -60,8 +60,9 @@ Homepage
     {% endcomment %}
 
     <div class="signup-for-launch">
-      <div class="launch-wrapper">
-        {% form 'customer' %}
+      {% form 'customer' %}
+        <div class="launch-wrapper">
+          
             <div class="email">
               <label for="email" style="display: none;">Email</label>
               <input type="email" placeholder="EMAIL ADDRESS" name="contact[email]" />
@@ -70,8 +71,9 @@ Homepage
             <div class="submit">
               <input type="submit" value="Sign up" />
             </div>
-        {% endform %}
-      </div>
+          
+        </div>
+      {% endform %}
     </div>
 
   </div>
