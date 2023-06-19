@@ -13,8 +13,24 @@ Homepage
       <source src="{{ 'pinkday-compress.mp4' | asset_url }}" type="video/mp4">
     </video>
 
+    {% comment %}
+    THIS BUTTON IS FOR LIVE VERSION
     <div class="enter-button">
       <span>{{ 'Enter' | escape }}</span>
+    </div>
+    {% endcomment %}
+
+    <div class="signup-for-launch">
+      {% form 'customer' %}
+          <div class="email">
+            <label for="email" style="display: none;">Email</label>
+            <input type="email" placeholder="EMAIL ADDRESS" name="contact[email]" />
+          </div>
+        
+          <div class="submit">
+            <input type="submit" value="Sign up" />
+          </div>
+      {% endform %}
     </div>
 
   </div>
