@@ -2,6 +2,14 @@
 {% assign sold_out = 'Sold Out' %}
 {% assign unavailable = 'Unavailable' %}
 
+
+<style>
+
+  .swiper, swiper-container {
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+  }
+</style>
 <div class="page-container" data-page="collection" itemscope itemtype="http://schema.org/Product">
   
   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}" />
