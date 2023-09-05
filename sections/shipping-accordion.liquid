@@ -4,7 +4,7 @@
     <summary>
         <h2 class="accordion-title">{{ block.settings.faqtitle }}</h2>
     </summary>
-    <p class="accordion-body">{{ block.settings.faqbody }}</p>
+    <p class="accordion-body">{{ block.settings.faqbody | newline_to_br }}</p>
 </details>
 
 {% endfor %}
