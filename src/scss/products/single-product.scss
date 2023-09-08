@@ -89,11 +89,22 @@
 
     .product--wrapper {
 
-        --big-font: 26;
+        --big-font: 26px;
 
         display: flex;
         flex-direction: column;
         width: 100%;
+
+        .product-image {
+            padding-top: 10px;
+        }
+
+        .swiper {
+            max-width: calc(100vw - 20px);
+            max-height: auto !important;
+            height: 100%;
+            overflow-y: visible;
+        }
 
         h1.product-title {
             font-family: var(--robot-font);

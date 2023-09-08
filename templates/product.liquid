@@ -26,23 +26,16 @@
 
       {% comment %} IMAGE {% endcomment %}
       <div class="product-image">
-
-        <!-- Slider main container -->
         <div class="swiper">
-
-          <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             {% for image in product.images %}
 
-              <!-- Slides -->
               <div class="swiper-slide">
                   <img src="{{ image | img_url: 'large' }}" alt="{{ image.alt | escape }}" />
               </div>
 
             {% endfor %}
                       
-
-
           </div>
 
           <div class="swiper-controls">
@@ -50,20 +43,16 @@
           </div>
           
         </div>
-
-
       </div>
 
 
       {% comment %} DATA {% endcomment %}
       <div class="product-data">
-
-        {% comment %} TITLE {% endcomment %}
+        
         <div class="title">
           <h1 class="product-title" itemprop="title">{{ product.title }}</h1>
         </div>
 
-        {% comment %} DESCRIPTION {% endcomment %}
         <p class="product-description" itemprop="description">
           {{ product.description }}
         </p>
@@ -71,7 +60,6 @@
         {% comment %} ACTIONS {% endcomment %}
         <div class="actions">
 
-          {% comment %} Variants {% endcomment %}  
           <div id="product-variants" class="{% if hide_default_title %} hidden{% endif %}">
 
             {% assign hide_default_title = false %}
@@ -178,18 +166,11 @@
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination',
       clickable: true
     },
-
-    // Navigation arrows
-    //navigation: {
-    //  nextEl: '.button-next',
-    //  prevEl: '.button-prev',
-    //},
+    slidesPerView: 1
   });
 
 </script>

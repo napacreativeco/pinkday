@@ -1,5 +1,6 @@
 .swiper-controls {
     color: var(--white);
+    padding: 10px 0 0 0;
 
     img {
         width: 20px;
@@ -40,11 +41,11 @@
 
 @media screen and (max-width: 769px) {
 
-    .product--wrapper .swiper {
-        max-width: calc(100vw - 20px);
-        height: 50vh;
-        max-height: 50vh;
-    }
+    // .product--wrapper .swiper {
+    //     max-width: calc(100vw - 20px);
+    //     height: 50vh;
+    //     max-height: 50vh;
+    // }
 
     .swiper-slide img {
         width: 100%;
@@ -55,9 +56,9 @@
 
 @media screen and (max-width: 500px) {
 
-    .product--wrapper .swiper {
-        max-height: 44vh;
-    }
+    // .product--wrapper .swiper {
+    //     max-height: 44vh;
+    // }
 
     
 }

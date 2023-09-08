@@ -17,47 +17,46 @@
         overflow: visible;
         transition: all 0.2s ease-in-out;
         position: relative;
+
+        input {
+            position: absolute !important;
+            clip: rect(0, 0, 0, 0);
+            height: 1px;
+            width: 1px;
+            overflow: hidden;
+        }
+
+        label {
+            background: transparent;
+            color: var(--white);
+            font-size: 28px;
+            font-family: var(--robot-font);
+            line-height: 0;
+            border: 1px solid var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 10px;
+        }
+
+        label:hover {
+            cursor: pointer;
+            background: var(--black);
+            color: var(--pink);
+            border: 1px solid var(--pink);
+        }
+
+        input:checked + label {
+            background-color: var(--pink);
+            color: var(--black);
+            box-shadow: none;
+            border: 1px solid var(--pink);
+        }
     }
     
     .switch-field:last-of-type {
         margin: 0;
     }
-
-    .switch-field input {
-        position: absolute !important;
-        clip: rect(0, 0, 0, 0);
-        height: 1px;
-        width: 1px;
-        overflow: hidden;
-    }
-
-    .switch-field label {
-        background: transparent;
-        color: var(--white);
-        font-size: 28px;
-        font-family: var(--robot-font);
-        line-height: 0;
-        border: 1px solid var(--white);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px 10px;
-    }
-
-    .switch-field label:hover {
-        cursor: pointer;
-        background: var(--black);
-        color: var(--pink);
-        border: 1px solid var(--pink);
-    }
-
-    .switch-field input:checked + label {
-        background-color: var(--pink);
-        color: var(--black);
-        box-shadow: none;
-        border: 1px solid var(--pink);
-    }
-
 
 }
 
@@ -84,13 +83,13 @@
 */
 @media screen and (max-width: 769px) {
 
-    .switch-field {
-        width: calc(100% / 6);
-    }
+    .product--wrapper {
 
-    .switch-field label {
-        font-size: 18px;
-        padding: 12px 4px;
+ 
+        .switch-field label {
+            font-size: 16px;
+            padding: 12px 4px;
+        }
     }
 
 }
