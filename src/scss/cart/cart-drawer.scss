@@ -83,7 +83,12 @@
     .quantity-total {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;        
+        justify-content: space-between;   
+        .quantity-input {
+            input {
+                border-radius: 0px !important;
+            }
+        }     
     }
 
     .cart-total {
