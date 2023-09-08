@@ -22,6 +22,8 @@
         text-transform: uppercase;
         color: var(--white);
         width: 100%;
+        display: block;
+        height: 100%;
     }
 
     input[type="submit"] {
