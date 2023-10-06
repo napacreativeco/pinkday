@@ -234,7 +234,7 @@ input::-webkit-outer-spin-button {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   text-transform: uppercase;
   display: block;
   z-index: 6;
